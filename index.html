@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Porfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Ruthvik Reddy</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Ruthvik Reddy</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/Ruthvik_image_linkedin_cropped.png" alt="Ruthvik Profile Picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Ruthvik Reddy</h1>
+                <p class="section__text__p2">AI Enthusiast</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Ruthvik_Resume_Spc.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/Linkedin-logo.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ruthvik03'">
+                    <img src="./assets/github-logo.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/MRR20'">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get to know more</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <!-- <div class="section__pic-container">
+                    <img src="./assets/Ruthvik_image_linkedin.png" alt="profile picture" class="about-pic">
+                </div> -->
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="experience icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>Beginner <br>AI Research & Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="education icon" class="icon">
+                            <h3>Education</h3>
+                            <p>B. Tech. Bachelors Degree</p>
+                            <p>Vignana Bharathi Institute of Technology<br>(2021-2025)</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam beatae voluptate quisquam libero pariatur commodi animi nisi error enim, dolorem esse minima tempore velit fugit mollitia rem molestias explicabo delectus neque nam nesciunt doloremque expedita veniam repellat! Libero tempore debitis vitae nihil a quidem aperiam. Et accusantium expedita magnam doloribus corporis nobis tempora officia voluptatibus fuga nostrum alias iste non perferendis, explicabo blanditiis aperiam? Dolorem adipisci inventore eaque deleniti sunt laboriosam expedita. Itaque et fugiat numquam rem, facilis temporibus sint quam velit perferendis laudantium voluptas expedita eaque dignissimos voluptatem molestiae saepe debitis autem, deserunt sapiente! Cum iure laudantium ratione praesentium sint molestiae numquam nisi iste! Perferendis architecto suscipit esse id deserunt atque non quis eveniet quaerat doloremque voluptatem, necessitatibus magnam culpa impedit error sunt quas debitis explicabo? Velit fugit possimus eaque nemo iusto temporibus ex accusantium distinctio? Ullam, delectus ipsum? Laborum, ducimus reprehenderit ex error fuga accusamus modi nulla rem id dicta possimus temporibus corrupti, sunt mollitia qui? Architecto nisi commodi dolor quo, voluptatibus fugit, natus incidunt sint nulla molestias sit expedita ducimus. Voluptatum, recusandae maxime. Dolore nesciunt minus quidem ipsum at vero quis, cumque impedit facere iusto animi assumenda dolorum nihil vitae non itaque sed deserunt, perferendis voluptatibus qui!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#experience'">
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">AI & ML</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>PyTorch</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>TensorFlow</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Hugging Face</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Gymnasium</h3>
+                                    <p>Beginner</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Stable Baselines3</h3>
+                                    <p>Beginner</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Others</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>C</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Figma</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>MySQL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Git and Github</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Google Cloud Platform</h3>
+                                    <p>Beginner</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#projects'">
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project.jpg" alt="project 1" class="project-img">
+                    </div>
+                    <div>
+                        <h2 class="experience-sub-title project-title">Analyzing the Influence of News Sentiment on Stock Prices</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MRR20/stock_prediction_project'">
+                                Github
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project.jpg" alt="project 2" class="project-img">
+                    </div>
+                    <div>
+                        <h2 class="experience-sub-title project-title">Cold Email Generator through Website</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MRR20/Email_Generator'">
+                                Github
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project.jpg" alt="project 3" class="project-img">
+                    </div>
+                    <div>
+                        <h2 class="experience-sub-title project-title">StockSentinel (A Research Project)</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn">
+                                In Progress
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#contact'">
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                    <p><a href="mailto:ruthvik20reddy@gmail.com">ruthvik20reddy@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/Linkedin-logo.png" alt="email icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/ruthvik03/">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Ruthvik Reddy Motati</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
